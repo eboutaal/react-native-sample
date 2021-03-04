@@ -2,6 +2,7 @@
   package="com.reactnativestarter">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="22" />
 
     <application
       android:name=".MainApplication"
