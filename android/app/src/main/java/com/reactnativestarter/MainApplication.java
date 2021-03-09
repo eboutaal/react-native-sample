@@ -5,6 +5,9 @@ import android.content.Context;
 import com.facebook.react.PackageList;
 
 import com.facebook.react.ReactApplication;
+import com.microsoft.appcenter.reactnative.crashes.AppCenterReactNativeCrashesPackage;
+import com.microsoft.appcenter.reactnative.analytics.AppCenterReactNativeAnalyticsPackage;
+import com.microsoft.appcenter.reactnative.appcenter.AppCenterReactNativePackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.reactcommunity.rnlocalize.RNLocalizePackage;
 import com.BV.LinearGradient.LinearGradientPackage;

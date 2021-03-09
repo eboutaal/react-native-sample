@@ -183,6 +183,9 @@ dependencies {
     implementation "com.facebook.react:react-native:+"  // From node_modules
     compile 'com.android.support:multidex:1.0.0'
     classpath 'com.android.tools.build:gradle:4.0.2'
+    implementation project(':appcenter-crashes')
+    implementation project(':appcenter-analytics')
+    implementation project(':appcenter')
     if (enableHermes) {
         def hermesPath = "../../node_modules/hermes-engine/android/";
         debugImplementation files(hermesPath + "hermes-debug.aar")
